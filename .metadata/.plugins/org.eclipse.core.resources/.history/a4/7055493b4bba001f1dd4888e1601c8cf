@@ -1,0 +1,39 @@
+package Daointerface;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class ConnectionDAO {
+    static Connection con = null;
+    protected PreparedStatement ps = null;
+    protected ResultSet rs = null;
+
+    public static Connection getConnection() throws ClassNotFoundException {
+        final String DBURL = "jdbc:mysql://localhost:3306/library"; // Updated port to 3306
+        final String DBUSERNAME = "root";
+        final String DBPASSWORD = "password"; // Ensure this matches your MySQL credentials
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver"); // Explicitly load JDBC driver
+            con = DriverManager.getConnection(DBURL, DBUSERNAME, DBPASSWORD);
+            System.out.println("Connected to Database Successfully");
+        } catch (SQLException e) {
+            System.out.println("Error while connecting to the database: " + e.getMessage());
+            e.printStackTrace();
+        }
+        return con;
+    }
+
+    public void disconnect() {
+        try {
+            if (rs != null) rs.close();
+            if (ps != null) ps.close();
+            if (con != null) con.close();
+        } catch (Exception e) {
+            System.out.println("Error while closing resources: " + e.getMessage());
+        }
+    }
+}
