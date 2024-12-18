@@ -9,6 +9,9 @@ public class App
     {
       findUser_Hql u = new findUser_Hql();
     	u.findUser();
+    	
+    	// calling the select method here from findUser.java class
+    	u.findUserSelect();
     }
 }
 
