@@ -1,10 +1,15 @@
 package Labs.HibernateNewJAP;
 
-/**
- * Hello world!
- */
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+import com.test.hib.controller.findUser_Hql;
+
+
+public class App 
+{ 
+	public static void main( String[] args )
+    {
+      findUser_Hql u = new findUser_Hql();
+    	u.findUser();
     }
 }
+
+
