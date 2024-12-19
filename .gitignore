@@ -44,3 +44,4 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 # ##### Maven End
+/.metadata/
