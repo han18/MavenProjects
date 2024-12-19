@@ -1,4 +1,4 @@
-package Labs.TestingFolder;
+package Labs.NewTestingProject;
 
 /**
  * Hello world!

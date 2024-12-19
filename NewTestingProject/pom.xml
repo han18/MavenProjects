@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Labs</groupId>
-  <artifactId>TestingFolder</artifactId>
+  <artifactId>NewTestingProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>TestingFolder</name>
-  <description>A simple TestingFolder.</description>
+  <name>NewTestingProject</name>
+  <description>A simple NewTestingProject.</description>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 

@@ -1,4 +1,4 @@
-package Labs.TestingFolder;
+package Labs.NewTestingProject;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
