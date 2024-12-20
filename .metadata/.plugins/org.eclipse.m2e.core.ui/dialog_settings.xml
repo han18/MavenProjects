@@ -28,6 +28,12 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="Labs.GLAB_305_4_3ADemonstrationNamedQueries"/>
+			<item value="Labs.JunitLession"/>
+			<item value="Labs.Junit_lesson"/>
+			<item value="Labs.NewTestingProject"/>
+			<item value="Labs.TestingFolder"/>
+			<item value="Labs.H2_HibernateDatabase"/>
 			<item value="Labs.HibernateNewJAP"/>
 			<item value="Labs.HibernateJAPBeginner"/>
 		</list>
@@ -35,6 +41,12 @@
 			<item value="Labs"/>
 		</list>
 		<list key="artifactId">
+			<item value="GLAB-305-4-3ADemonstrationNamedQueries"/>
+			<item value="JunitLession"/>
+			<item value="Junit-lesson"/>
+			<item value="NewTestingProject"/>
+			<item value="TestingFolder"/>
+			<item value="H2-HibernateDatabase"/>
 			<item value="HibernateNewJAP"/>
 			<item value="HibernateJAPBeginner"/>
 		</list>
